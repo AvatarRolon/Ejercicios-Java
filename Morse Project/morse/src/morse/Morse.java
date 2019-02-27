@@ -84,7 +84,7 @@ public class Morse {
         
         // Translate morse to text
         for(int i = 0; i < morseWords.length; i++){
-            // Converts every morse word into array or morse
+            // Converts every morse word into array of morse
             String[] morseArray = morseWords[i].split(" ");
             
             // Finally Converts the morse string into text string
@@ -105,7 +105,7 @@ public class Morse {
     // Main function
     public static void main(String[] args) {
         
-        // Scammer for reading data
+        // Scanner for reading data
         Scanner sc = new Scanner(System.in);
         
         // var option
@@ -129,11 +129,9 @@ public class Morse {
                 sc.nextLine();
             }catch(Exception e){
                 e.printStackTrace();
-            }
+            }                        
             
-            
-            // if op is equal to 1 then translate text to morse
-            if(op == 1){
+            if(op == 1){ // if op is equal to 1 then translate text to morse
                 
                 // Read data input
                 System.out.println("---------------------------------------------");
@@ -148,7 +146,7 @@ public class Morse {
                 // make translation and print to display
                 System.out.println("Texto en morse: " + textToMorse(translate));
                 System.out.println("");
-            }else if (op == 2){
+            }else if (op == 2){ // if op is equal to 2 then translate morse to text
                 
                 // Read data input
                 System.out.println("---------------------------------------------");
