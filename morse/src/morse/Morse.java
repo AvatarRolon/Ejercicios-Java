@@ -146,7 +146,7 @@ public class Morse {
                 }                
                 
                 // make translation and print to display
-                System.out.println("Texto en morse:" + textToMorse(translate));
+                System.out.println("Texto en morse: " + textToMorse(translate));
                 System.out.println("");
             }else if (op == 2){
                 
