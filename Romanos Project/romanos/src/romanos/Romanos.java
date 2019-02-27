@@ -1,6 +1,6 @@
 /*
  *  Author:         Carlos Guillermo Rolon Fabian
- *  Description:    Algorithm to translate text to morse and morse to text
+ *  Description:    Algorithm to convert common nubers to Roman numeral
  *  Date:           27/20/2019
  */
 /*-------------------------------------------------------------------------*/
