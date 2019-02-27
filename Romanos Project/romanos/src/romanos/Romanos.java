@@ -1,7 +1,7 @@
 /*
  *  Author:         Carlos Guillermo Rolon Fabian
  *  Description:    Algorithm to translate text to morse and morse to text
- *  Date:           26/20/2019
+ *  Date:           27/20/2019
  */
 /*-------------------------------------------------------------------------*/
 
